@@ -1,0 +1,21 @@
+.input {
+  width: 80%;
+  height: 55px;
+  padding-left: 12px;
+  padding-right: 12px;
+
+  /*border*/
+  border-radius: 6px;
+  border-width: 3px;
+  border-color: #1e2128ff;
+
+  /*font*/
+  font-family: inherit;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.input:hover{
+  border-color: black;
+}

@@ -1,0 +1,16 @@
+.Computers_and_laptops{
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    background: #EEEDF2FF;
+    gap: 15px;
+}
+
+.form{
+    height: 300px;
+    width: 270px;
+    background-color: blueviolet;
+    border-radius: 12px;
+}

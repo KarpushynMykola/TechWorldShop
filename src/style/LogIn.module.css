@@ -1,0 +1,84 @@
+.Page {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #eeedf2ff;
+  }
+  
+  .Form {
+    width: 802px;
+    height: 505px;
+    display: flex;
+    background: white;
+    border-radius: 20px;
+  }
+  
+  .LeftCol {
+    width: 5%;
+    height: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .CentralCol {
+    width: 50%;
+    height: 100%;
+  }
+  
+  .RigthCol {
+    height: 100%;
+    width: 45%;
+    background-image: url('../assets/login_page/login_img.png');
+    background-size: cover;
+    background-position: center;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  
+  .CentralColHeader {
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .CentralColInputForm {
+    height: 29%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .CentralColButtonForm {
+    height: 31%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Text {
+    margin-top: 15px;
+    line-height: 80px;
+    font-size: 36px;
+    font-family: inherit;
+    font-weight: 700;
+    color: #323743ff;
+  }
+  
+  .Text2 {
+    line-height: 30px;
+    font-size: 20px;
+    font-family: inherit;
+    font-weight: 700;
+    color: #9095a1ff;
+  }
+  
+  .Text3 {
+    font-size: 28px;
+    font-family: inherit;
+    font-weight: 700;
+    color: #1dd75bff;
+  }

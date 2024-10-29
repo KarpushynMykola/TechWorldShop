@@ -1,0 +1,48 @@
+.ShoppingCart{
+    
+}
+
+.Body{
+    display: flex;
+    justify-content: center;
+    
+    height: 100vh;
+    width: 100%;
+    background-color: #EEEDF2FF;
+}
+
+.ShoppingCartList{
+    width: 70%;
+    margin-top: 80px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.208);
+    display: flex;
+    justify-content: center;
+}
+
+.ShoppingCartListCont{
+    width: 95%;
+    margin-top: 20px;
+}
+
+.ShoppingCartListHeader{
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.ShoppingCartListBody{
+    margin-top: 10px;
+}
+
+.Text{
+    font-size: 32px;
+    font-weight: 700; 
+    line-height: 0;
+    color: #171A1FFF;
+}
+.Text2{
+    font-size: 20px; 
+    font-weight: 400; 
+    line-height: 0;
+    color: #323743FF;
+}

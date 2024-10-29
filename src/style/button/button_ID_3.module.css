@@ -1,0 +1,71 @@
+@keyframes rotate_1 {
+    from{
+        transform: rotate(90deg);
+    }
+    to{
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes rotate_2 {
+    from{
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(90deg);
+    }
+}
+
+.buttonActive{
+    height: 42px;
+    width: 42px;
+    background: #1DD75BFF;
+
+    /*border*/
+    border-radius: 30px;
+    border: none;
+
+    /*shadow*/
+    box-shadow: 0px 0px 0px #1DD75BFF;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transform: rotate(0deg);
+    animation: rotate_1 250ms linear 1;
+}
+
+.buttonActive:hover{
+    background: rgb(33, 255, 107);
+    box-shadow: 0px 0px 10px #1DD75BFF;
+    transition: background 250ms ease-in-out ;
+    transition: box-shadow 250ms ease-in-out;
+}
+
+.bottonInactive{
+    height: 42px;
+    width: 42px;
+    background: rgb(18, 134, 57);
+
+    /*border*/
+    border-radius: 30px;
+    border: none;
+
+    /*shadow*/
+    box-shadow: 0px 0px 0px #1DD75BFF;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transform: rotate(90deg);
+    animation: rotate_2 250ms linear 1;
+}
+
+.bottonInactive:hover{
+    background: #1DD75BFF;
+    box-shadow: 0px 0px 10px #1DD75BFF;
+    transition: background 250ms ease-in-out ;
+    transition: box-shadow 250ms ease-in-out;
+}

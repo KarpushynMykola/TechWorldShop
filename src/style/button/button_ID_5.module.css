@@ -1,0 +1,29 @@
+.button{
+    background:#EEEDF2FF;
+    height: 35px;
+    width: 95%;
+
+    display: flex;
+    align-items: center;
+  
+    /*border*/
+    border: none;
+    border-radius: 20px;
+}
+
+.button:hover{
+    background: white;
+    transition: background 250ms ease-in-out;
+}
+
+.LeftCol{
+    width: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.RightCol{
+    font-size: 16px;
+    font-weight: 700;
+    color: #323743FF; 
+}

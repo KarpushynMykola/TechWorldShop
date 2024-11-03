@@ -1,0 +1,48 @@
+@keyframes exmaple{
+    from{
+        left: -20%;
+    }
+    to{
+        left: 0px;
+    }
+}
+
+
+.Catalogue{
+    position: fixed;
+    margin-top: 80px;
+    height: calc(100% - 80px);
+    width: 20%;
+    z-index: 2;
+    background: #EEEDF2FF;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.21);
+
+    left: 0px;
+    animation: exmaple 250ms linear 1;
+}
+
+.NavCont{
+    height: 100%;
+    margin-left: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.Nav_1{
+    height: 40%;
+    box-shadow: -1px 0px 2px rgba(0, 0, 0, 0.21);
+}
+
+.Nav_2{
+    height: 30%;
+    box-shadow: -1px 0px 2px rgba(0, 0, 0, 0.21);
+}
+
+.Nav_3{
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+}

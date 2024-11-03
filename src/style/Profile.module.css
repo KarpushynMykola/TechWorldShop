@@ -1,0 +1,119 @@
+.Profile{
+    
+}
+
+.Body{
+    display: flex;
+    justify-content: center;
+    
+    height: 100vh;
+    width: 100%;
+    background-color: #EEEDF2FF;
+}
+
+.ProfileInfo{
+    width: 70%;
+    margin-top: 80px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.208);
+    display: flex;
+    justify-content: center;
+}
+
+.ProfileInfoCont{
+    width: 95%;
+    margin-top: 20px;
+}
+
+.InfoCont{
+    display: flex;
+    height: 80px;
+    width: 100%;
+}
+
+.Avatar{
+    height: 100%;
+    width: 12%;
+    display: flex;
+    align-items: center;
+}
+.NameAndEmail{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.Text{
+    font-size: 32px;
+    font-weight: 700; 
+    line-height: 0;
+    color: #171A1FFF;
+}
+.Text2{
+    font-size: 20px; 
+    font-weight: 400; 
+    line-height: 0;
+    color: #323743FF;
+}
+
+.CenterCont{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 90px;
+    width: 100%;
+}
+
+.CenterContRow{
+    display: flex;
+    align-items: center;
+}
+
+.CenterContText{
+    margin-left: 20px;
+}
+
+.BottonCont{
+    height: 72%;
+    width: 100%;
+
+    display: flex;
+}
+
+.BottonContLeft{
+    width: 50%;
+}
+
+.BottonContRigth{
+    width: 50%;
+}
+
+.Form{
+    height: 100%;
+    width: 70%;
+}
+
+.FormTop{
+    height: 18%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.FormCenter{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.FormBotton{
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Input{
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

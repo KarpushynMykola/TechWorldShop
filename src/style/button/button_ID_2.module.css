@@ -1,0 +1,19 @@
+.button {
+    background: #f3f4f6ff;
+    height: 25px;
+    width: 25px;
+    margin-top: 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    /*border*/
+    border: none;
+    border-radius: 20px;
+}
+
+.button:hover {
+    background: rgb(210, 210, 211);
+    transition: background 250ms ease-in-out;
+  }

@@ -11,7 +11,7 @@ import { auth } from "./firebase";
 import { onAuthStateChanged,  updatePassword, reauthenticateWithCredential, EmailAuthProvider  } from "firebase/auth";
 import { getUserFromDatabase } from "./UserBD";
 import { useAuth } from "./Auth"; 
-import { db } from "./firebase"; // ваш файл налаштувань firebase
+import { db } from "./firebase";
 import { doc, updateDoc } from "firebase/firestore";
 
 

@@ -1,0 +1,14 @@
+.Button{
+    height: 30px;
+    width: 30px;
+    border: none;
+    border-radius: 15px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Button:hover{
+    background-color: rgb(236, 236, 236);
+    transition: background-color 250ms ease-in-out;
+}

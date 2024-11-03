@@ -81,3 +81,8 @@
     font-weight: 700;
     color: #1dd75bff;
   }
+
+  .error {
+    background-color: blue;
+    position: fixed;
+  }

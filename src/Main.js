@@ -7,7 +7,6 @@ import Tablet from "./components/UI/select/tablet";
 import Smartphone from "./components/UI/select/smartphone";
 import Accessories from "./components/UI/select/accessories";
 
-
 const Main = function (){
 
     const [selectedType, setSelectedType] = useState('computers_and_laptops');

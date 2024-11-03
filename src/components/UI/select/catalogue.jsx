@@ -6,9 +6,18 @@ import laptop from "../../../assets/icons/laptop.svg";
 import tablet from "../../../assets/icons/tablet.svg";
 import smartphone from "../../../assets/icons/smartphone.svg";
 import keyboard from "../../../assets/icons/keyboard.svg";
-import sign_question from "../../../assets/icons/sign_question.svg"
+import sign_question from "../../../assets/icons/sign_question.svg";
+import useAuthStatus from '../../../AuthStatus';
+import {logoutUser} from '../../../Auth';
+import Button_ID_6 from "../button/button_ID_6";
 
 const Catalogue = function ({ setSelectedType }){
+    const isLoggedIn = useAuthStatus();
+
+    const handleLogout = () => {
+        logoutUser();
+    }
+
     return (
         <aside className={catalogue.Catalogue}>
             <section className={catalogue.Nav_1}>
@@ -25,8 +34,14 @@ const Catalogue = function ({ setSelectedType }){
                 </div>
             </section>
             <section className={catalogue.Nav_3}>
-                <Button_ID_1 text = "Log in" link = "/login"/>
-                <Button_ID_1 text = "Sign Up" link = "/signup"/>
+                {!isLoggedIn ? (
+                    <>
+                    <Button_ID_1 text = "Log in" link = "/login"/>
+                    <Button_ID_1 text = "Sign Up" link = "/signup"/>
+                    </>
+                ) : (
+                    <Button_ID_6 functions={handleLogout} text="Log out"/>
+                )}
             </section>
         </aside>
     );
